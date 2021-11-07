@@ -51,3 +51,6 @@ create table prescrire
     FOREIGN KEY (TIN_CODE) REFERENCES type_individu(TIN_CODE),
     FOREIGN KEY (DOS_CODE) REFERENCES dosage(DOS_CODE) 
 );
+
+ALTER TABLE `prescrire` ADD INDEX(`MED_DEPOTLEGAL`);
+ALTER TABLE `interagis` ADD INDEX(`MED_PERTURBATEUR`);
