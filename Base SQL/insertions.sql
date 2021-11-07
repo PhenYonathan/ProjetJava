@@ -37,6 +37,9 @@ INSERT INTO prescrire (`MED_DEPOTLEGAL`,`TIN_CODE`,`DOS_CODE`,`PRE_POSOLOGIE`) V
 INSERT INTO prescrire (`MED_DEPOTLEGAL`,`TIN_CODE`,`DOS_CODE`,`PRE_POSOLOGIE`) VALUES (3,1,3,'2 ou 3 comprimés par prise, à renouveler si nécessaire toutes les 3 Jours.');
 INSERT INTO prescrire (`MED_DEPOTLEGAL`,`TIN_CODE`,`DOS_CODE`,`PRE_POSOLOGIE`) VALUES (2,3,2,'Une cuillére avant chaque repas.');
 INSERT INTO prescrire (`MED_DEPOTLEGAL`,`TIN_CODE`,`DOS_CODE`,`PRE_POSOLOGIE`) VALUES (4,2,1,'Un sachet le matin et un le soir.');
+INSERT INTO prescrire (`MED_DEPOTLEGAL`,`TIN_CODE`,`DOS_CODE`,`PRE_POSOLOGIE`) VALUES (8,5,2,'3 pillles tous les matins.');
+INSERT INTO prescrire (`MED_DEPOTLEGAL`,`TIN_CODE`,`DOS_CODE`,`PRE_POSOLOGIE`) VALUES (9,3,4,'Un comprimé tous les midis.');
+INSERT INTO prescrire (`MED_DEPOTLEGAL`,`TIN_CODE`,`DOS_CODE`,`PRE_POSOLOGIE`) VALUES (10,2,3,'Un verre doseur tous les soirs.');
 
 INSERT INTO interagis (MED_PERTURBATEUR, MED_MED_PERTURBE) VALUES (3,4)
 INSERT INTO interagis (MED_PERTURBATEUR, MED_MED_PERTURBE) VALUES (1,2)
